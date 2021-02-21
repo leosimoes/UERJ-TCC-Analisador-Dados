@@ -140,6 +140,3 @@ if __name__ == '__main__':
             st.header('Regressão Logística')
             regressor.logistica()
             st.markdown('<hr/>', unsafe_allow_html=True)
-
-        if st.button('Salvar Pdf'):
-            st.print(sidebar=False, printer="PDF")

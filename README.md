@@ -11,7 +11,7 @@ e sem necessidade de instalar algum software.
 
 ## Ambiente de programação
 
-A aplicação foi construída usando a linguagem Python 3.6 e seus módulos:
+A aplicação foi construída usando a linguagem Python 3.8 e seus módulos:
 
 * streamlit: 0.71.0
 * numpy: 1.19.4
@@ -22,7 +22,7 @@ A aplicação foi construída usando a linguagem Python 3.6 e seus módulos:
 
 ## Execução 
 
-Para acessar a aplicação hospedada no heroku (link temporário): https://analisador-dados.herokuapp.com/
+Para acessar a aplicação hospedada no heroku (link temporário): https://leosimoes-uerj-tcc-analisador-dados-main-exox6h.streamlit.app/
 
 Para executar a aplicação localmente: após baixa-lá, configurar a venv (ambiente virtual) e instalar as dependências, 
 use o terminal no diretório da aplicação e use o comando "streamlit run main.py". 

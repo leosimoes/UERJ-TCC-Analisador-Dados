@@ -23,9 +23,6 @@ A aplicação foi construída usando a linguagem Python 3.8 e seus módulos:
 
 ## Execução 
 
-Para acessar a aplicação hospedada no heroku: 
-[Link temporário](https://leosimoes-uerj-tcc-analisador-dados-main-exox6h.streamlit.app/)
-
 Para executar a aplicação localmente: após baixa-lá, configurar a venv (ambiente virtual) e instalar as dependências, 
 use o terminal no diretório da aplicação e use o comando `streamlit run main.py`. 
 

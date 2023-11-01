@@ -22,14 +22,14 @@ class ColetorDados:
     def carregar_arquivo(self):
         return st.file_uploader('Upload de arquivo csv, tsv ou txt:', type=['csv','tsv','txt'])
 
-    @st.cache
-    def carregar_dados(self, arquivo):
-        if self.sem_rotulos:
-            df = pd.read_csv(arquivo, sep=self.separador, header=None)
+    @st.cache_data
+    def carregar_dados(_self, arquivo):
+        if _self.sem_rotulos:
+            df = pd.read_csv(arquivo, sep=_self.separador, header=None)
             df.columns = ['x' + str(i) for i in range(1, df.shape[1] + 1)]
             return df
         else:
-            df = pd.read_csv(arquivo, sep=self.separador)
+            df = pd.read_csv(arquivo, sep=_self.separador)
             lowercase = lambda x: str(x).lower()
             df.rename(lowercase, axis='columns', inplace=True)
             return df

@@ -9,12 +9,12 @@ import statsmodels
 import base64
 
 #import das classes criadas para analise dos dados
-from ColetorDados import ColetorDados
-from AvaliadorDados import AvaliadorDados
-from LimpadorDados import LimpadorDados
-from ExploradorDados import ExploradorDados
-from GeradorGrafico import GeradorGrafico
-from Regressor import Regressor
+from ProcessamentoDados.ColetorDados import ColetorDados
+from ProcessamentoDados.AvaliadorDados import AvaliadorDados
+from ProcessamentoDados.LimpadorDados import LimpadorDados
+from ProcessamentoDados.ExploradorDados import ExploradorDados
+from ProcessamentoDados.GeradorGrafico import GeradorGrafico
+from ProcessamentoDados.Regressor import Regressor
 
 #Para executar o app: streamlit run main.py
 if __name__ == '__main__':
